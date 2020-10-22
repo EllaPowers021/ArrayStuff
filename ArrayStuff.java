@@ -49,7 +49,7 @@ public class ArrayStuff {
          System.out.println(planets[6]);
 
 
-        //Change the name of our planet to be a line of text that the user inputs
+        //Change the name of our planet to be a word that the user inputs
          System.err.print("What do you want to rename Earth to be?");
          planets [2] = input.next();
 
@@ -57,8 +57,9 @@ public class ArrayStuff {
         //Replace the first planet with the planet at index 2, but with all uppercase letters.
          planets [0] = planets [2].toUpperCase();
          
-         // TODO: Print all of the elements of "planets" in reverse order.
-         String [] reverseOrder = planets[7] 
+         //Print all of the elements of "planets" in reverse order.
+         String [] reverseOrder = {planets[7], planets[6], planets[5], planets[4], planets[3], 
+        		 planets[2], planets[1],planets[0]};
 
     }
 }
