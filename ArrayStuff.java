@@ -1,7 +1,7 @@
 /*
  * Programmer:Ella Powers
- * Date:October 9, 2020
- * Purpose: To convert user's sentences into baby talk
+ * Date:October 22, 2020
+ * Purpose: To learn to code using arrays
  */
 
 import java.util.Scanner;
