@@ -44,7 +44,7 @@ public class ArrayStuff {
 		String [] planets = {"Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"};
 
 		//Print the first letter of the 7th planet from the sun
-		System.out.println(planets[6]);
+		System.out.println(planets[6].charAt(0));
 
 
 		//Change the name of our planet to be a word that the user inputs
